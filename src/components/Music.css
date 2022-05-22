@@ -1,0 +1,27 @@
+.music {
+  display: grid;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+  position: relative;
+  grid-template-columns: 10% 20% 60% 10%;
+}
+
+img {
+  height: 40px;
+  width: 40px;
+}
+.music__title {
+  padding: 10px;
+  text-align: left;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.music__singer {
+  text-align: right;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}

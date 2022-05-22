@@ -1,0 +1,28 @@
+.container {
+  padding: 40px;
+}
+
+button {
+  background-color: transparent;
+  background-image: none;
+  border: none;
+  font-size: 14px;
+}
+
+.title {
+  display: block;
+  text-align: center;
+}
+
+.time {
+  display: block;
+  text-align: center;
+}
+
+.red {
+  color: red;
+}
+
+.musics {
+  display: grid;
+}

@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.singer__text {
+  text-align: center;
+}
+
+.bottom {
+  display: grid;
+  margin: 40px;
+}
+.bottom div {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  margin-bottom: 20px;
+}
+
+.bottom div :first-child {
+  text-align: right;
+  margin-right: 30px;
+  font-weight: bold;
+}
+
+.bottom div :last-child {
+  text-align: left;
+  margin-left: 30px;
+}
